@@ -1,4 +1,5 @@
-from api.models import Student, CustomUser
+from Student.models import Student
+from api.models import CustomUser
 from rest_framework import serializers
 
 class StudentSerializer(serializers.ModelSerializer):

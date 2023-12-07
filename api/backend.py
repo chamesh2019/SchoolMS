@@ -1,6 +1,6 @@
 from django.contrib.auth.backends import ModelBackend
 
-from api.models import Student
+from Student.models import Student
 
 class MultipleModelBackend(ModelBackend):
     def authenticate(self, request, username=None, password=None, **kwargs):

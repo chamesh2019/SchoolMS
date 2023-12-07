@@ -1,8 +1,7 @@
 from django.contrib import admin
 
-from api.models import Student, CustomUser
+from api.models import CustomUser
 
-# Register your models here.
-admin.site.register(Student)
 admin.site.register(CustomUser)
+
 
